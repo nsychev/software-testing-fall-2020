@@ -1,0 +1,11 @@
+version: '3'
+services:
+  postgres:
+    image: postgres
+    restart: always
+    environment:
+      - POSTGRES_DB=hashback
+      - POSTGRES_USER=hashback
+      - POSTGRES_PASSWORD=hashback
+    ports:
+      - 127.0.0.1:8432:5432

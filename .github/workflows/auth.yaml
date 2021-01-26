@@ -1,0 +1,21 @@
+name: Auth App Tests
+on:
+  push:
+    branches: [ master ]
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Install Node.JS
+        uses: actions/setup-node@v1
+        with:
+          node-version: 14
+      - name: Run tests
+        working-directory: auth
+        run: |
+          sudo apt-get install -qqy openssl
+          npm install
+          npm run generate-keys
+          npm run test

@@ -1,0 +1,35 @@
+/*
+This website uses Vanilla CSS by Bradley Taunt:
+
+Copyright (c) 2018 Bradley Taunt
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+*/
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}*{box-sizing:border-box}:root{--desktop-font-size:1.3rem/1.5;--mobile-font-size:1.1rem/1.4;--text-color:#2d2d2d;--link-color:blue;--primary-color:#b0c4de;--secondary-color:#f0f8ff;--tertiary-color:#f5f5f5}body{color:var(--text-color)}body,input{font:var(--desktop-font-size) -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"}h1,h2,h3,h4,h5,h6,p,blockquote,dl,img,figure{margin:2rem 0}h1,h2,h3,h4,h5,h6{font-weight:700;line-height:1.2}h1{font-size:200%}h2{font-size:150%}h3{font-size:120%}h4,h5,h6{font-size:100%}h5,h6{text-transform:uppercase}header h1{border-bottom:1px solid}p{margin:2rem 0}a,a:visited{color:var(--link-color)}strong,time,b{font-weight:700}em,dfn,i{font-style:italic}sub{font-size:60%;vertical-align:bottom}small{font-size:80%}blockquote,q{background:var(--secondary-color);border-left:10px solid var(--primary-color);display:block;font-family:"Georgia",serif;padding:1rem}blockquote p:first-child{margin-top:0}cite{font-family:"Georgia",serif;font-style:italic;font-weight:700}kbd,code,samp,pre,var{font-family:monospace;font-weight:700}code,pre{background:var(--tertiary-color);padding:.5rem 1rem}code pre,pre code{padding:0}hr{background:var(--text-color);border:0;height:1px;margin:4rem 0}img{display:block;height:auto;max-width:100%}figure{border:1px solid var(--primary-color);display:inline-block;padding:1rem;width:auto}figure img{margin:0}figure figcaption{font-size:80%;margin-top:.5rem}ul,ol{margin:2rem 0;padding:0 0 0 4rem}dl dd{padding-left:2rem}table{border:1px solid var(--primary-color);border-collapse:collapse;table-layout:fixed;width:100%}table caption{margin:2rem 0}table thead{text-align:center}table tbody{text-align:right}table tr{border-bottom:1px solid var(--primary-color)}table tbody tr:nth-child(even){background:var(--tertiary-color)}table th{background:var(--secondary-color);font-weight:700}table th,table td{padding:1rem}table th:not(last-of-type),table td:not(last-of-type){border-right:1px solid var(--primary-color)}input{appearance:none;border:1px solid var(--text-color);display:block;margin:.5rem 0;padding:.8rem}input:focus,input:active{background-color:var(--secondary-color);border-color:var(--link-color)}@media screen and (max-width: 50rem){body,input{font:var(--mobile-font-size) -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"}table{table-layout:auto}}
+
+body{
+    margin:0 auto;
+    max-width:50rem;
+}
+
+@media(max-width:50rem) {
+    body {
+        padding: 10px;
+    }
+}
